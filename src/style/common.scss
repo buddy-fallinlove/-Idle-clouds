@@ -1,0 +1,204 @@
+/* 弹性盒模型 */
+.d-flex {
+    display: flex;
+}
+
+/* 水平居中 */
+.flex-j-c {
+    display: flex;
+    justify-content: center;
+}
+
+/* 两边无间距等分 */
+.flex-j-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 有间距等分 */
+.flex-j-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 水平垂直居中 */
+.flex-cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 垂直居中 */
+.flex-a-c {
+    display: flex;
+    align-items: center;
+}
+
+/* 弹性盒模型换行 */
+.f-f-warp {
+    flex-wrap: wrap;
+}
+
+/* 竖直方向排列 */
+.f-dir-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 竖直方向排列居中 */
+.f-dir-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 超出部分省略 */
+.wh-text-over {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 超出部分隐藏（只限字体） */
+}
+
+/* 相对定位 */
+.pos-re {
+    position: relative;
+}
+
+/* 绝对定位 */
+.pos-ab {
+    position: absolute;
+}
+
+/* 内边距10px */
+.paddten {
+    padding: 10px;
+}
+
+/* 内边距5px */
+.paddfive {
+    padding: 5px;
+}
+
+/* 上下内边距5px */
+.padd-tobo {
+    padding: 5px 0;
+}
+
+/* 左右内边距5px */
+.padd-lr {
+    padding: 0 5px;
+}
+
+.padd-lrs {
+    padding: 0 10px;
+}
+
+.padd-lres {
+    padding: 0 20px;
+}
+
+.padd-tbes {
+    padding: 20px 0;
+}
+
+.paddes {
+    padding: 20px;
+}
+
+/* 左内边距10px */
+.padd-l {
+    padding-left: 10px;
+}
+
+/* 右内边距10px */
+.padd-r {
+    padding-right: 10px;
+}
+
+.padd_r {
+    padding-right: 5px;
+}
+
+/* 下内边距10px */
+.padd-b {
+    padding-bottom: 10px;
+}
+
+/* 上外边距30px */
+.marg-topss {
+    margin-top: 30px;
+}
+
+.mar-boes {
+    margin-bottom: 20px;
+}
+
+/* 上外边距10px */
+.marg-tops {
+    margin-top: 10px;
+}
+.marg-topes {
+    margin-top: 20px;
+}
+.marg-topw {
+    margin-top: 5px;
+}
+
+/* 左边距10px */
+.marg-les {
+    margin-left: 10px;
+}
+
+.marg-lees {
+    margin-left: 20px;
+}
+
+.marg-lre {
+    margin: 0 20px;
+}
+
+/* you边距10px */
+.marg-ris {
+    margin-right: 10px;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.marg-ries {
+    margin-right: 20px;
+}
+
+.fwei {
+    font-weight: 600;
+}
+
+p img {
+    max-width: 700px;
+}
+
+div h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div h3 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.ant-dropdown {
+    min-height: 180px !important;
+    max-height: 240px !important;
+    overflow: auto !important;
+}

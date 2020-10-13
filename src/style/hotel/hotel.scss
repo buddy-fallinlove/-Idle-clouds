@@ -1,0 +1,604 @@
+.hotelbox {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.citybox {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  /deep/.ant-input {
+    border: none;
+    outline: none;
+  }
+}
+
+.timebox {
+  width: 350px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 15px;
+
+  /deep/.ant-input {
+    border: none;
+  }
+}
+
+.peobox {
+  width: 217px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.ipt {
+  outline: none !important;
+  border: none;
+  width: 190px;
+  margin-left: 5px;
+}
+
+.imgsss {
+  width: 16px;
+  height: 16px;
+}
+
+.chosebox {
+  position: absolute;
+  top: 50px;
+  width: 300px;
+  border: 1px solid #ccc;
+  z-index: 99;
+  background: white;
+  border-radius: 5px;
+}
+
+.chtopbox {
+  padding: 0 10px;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.chbtbox {
+  padding-right: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lbposition {
+  padding-top: 5px;
+  width: 60px;
+  min-height: 50px;
+}
+
+.lbwords {
+  width: 514px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+.fs13 {
+  font-size: 13px;
+}
+.sloatas {
+  position: absolute;
+  top: -4px;
+  right: 19px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(204, 204, 204);
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro {
+  font-size: 12px;
+}
+.r-box {
+  width: 420px;
+  height: 260px;
+}
+.searchBox {
+  width: 998px;
+  height: 78px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: center;
+}
+.moneybox {
+  width: 190px;
+  height: 100%;
+  padding: 5px 20px;
+  border-right: 1px dotted #ccc;
+}
+.searchBoxin {
+  display: flex;
+  font-size: 14px;
+}
+.levelbox {
+  width: 180px;
+  height: 100%;
+  border-right: 1px dotted #ccc;
+  padding: 5px 20px;
+}
+.stybox {
+  width: 180px;
+  height: 100%;
+  border-right: 1px dotted #ccc;
+  padding: 5px 20px;
+}
+.shebox {
+  width: 180px;
+  height: 100%;
+  border-right: 1px dotted #ccc;
+  padding: 5px 20px;
+}
+.pinpaibox {
+  width: 170px;
+  height: 100%;
+  border-right: 1px dotted #ccc;
+  padding: 5px 20px;
+}
+.retrunbox {
+  width: 100px;
+}
+.xxxx {
+  .ant-dropdown {
+    width: 150px;
+    height: 200px;
+    overflow: auto;
+  }
+}
+
+
+
+.topbox {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+.l-box {
+  width: 589px;
+  height: 260px;
+}
+
+
+
+#container {
+  width: 420px;
+  height: 260px;
+}
+
+
+
+.lbposition1 {
+  width: 60px;
+  min-height: 60px;
+  position: relative;
+}
+
+
+
+
+
+.lbwords1 {
+  width: 514px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itembox {
+  padding: 2 2px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.imgss {
+  width: 14px;
+  height: 14px;
+}
+
+
+
+.imgtime {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+
+
+.chose1box {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  z-index: 99;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hbimgbox {
+  width: 320px;
+  height: 210px;
+}
+
+.imghb {
+  width: 320px;
+  height: 210px;
+}
+
+.hbmsgbox {
+  width: 410px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.otherbox {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 255px;
+}
+
+.hbmsgbox-fs {
+  font-size: 20px;
+}
+
+.hbmsgbox-fs2 {
+  margin-bottom: 10px;
+}
+
+.otherbox1 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.obfs {
+  margin-bottom: 5px;
+  color: orange;
+}
+
+.rightimg {
+  width: 14px;
+  height: 14px;
+  margin-right: 40px;
+}
+
+.hbmsgfont {
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ratebox {
+  font-size: 14px;
+  width: 65%;
+  justify-content: space-between;
+}
+
+.chose1box1 {
+  width: 90%;
+}
+
+.choseitem {
+  line-height: 40px;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+
+.rightimgbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputbox {
+  width: 190px;
+}
+
+
+
+.chosefont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chosefont1 {
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+}
+
+.chosefont2 {
+  height: 150px;
+  overflow: auto;
+}
+
+.hotelsearchbox {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px !important;
+}
+
+a {
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+ul li {
+  list-style: none !important;
+}
+
+// button {
+//   outline: none;
+// }
+
+input {
+  outline: none;
+}
+
+body::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background-color: #409eff;
+  background-image: -webkit-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent);
+}
+
+body::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  /*border-radius: 10px;*/
+  background: #ededed;
+}
+
+/*文字超出省略*/
+.sl {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.d-f {
+  display: flex;
+}
+
+.a-l {
+  align-items: center;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.m-l-5 {
+  margin-left: 5px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.m-r-10 {
+  margin-right: 10px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-30 {
+  margin-top: 20px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.j-c {
+  justify-content: center;
+}
+
+.j-c-sb {
+  justify-content: space-between;
+}
+
+.j-c-sa {
+  justify-content: space-around;
+}
+
+.w-100 {
+  width: 100%;
+  background: #333;
+}
+
+.w-1 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+  height: 80px;
+}
+
+.min-h-500px {
+  min-height: 500px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.f-s-12 {
+  font-size: 12px;
+}
+
+.loginbox {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enterloginbox {
+  width: 400px;
+
+  border: 1px solid #ccc;
+}
+
+.icons {
+  font-size: 24px !important;
+}
+
+.cover_c .ant-input {
+  height: 46px;
+}
+
+p img {
+  max-width: 700px;
+}
+
+.ant-tooltip-inner {
+  width: 400px;
+}
+
+.ant-calendar-picker {
+  width: 348px !important;
+}
+
+.ant-calendar-picker-input {
+  border: none !important;
+}
+
+.ant-calendar-picker-container {
+  left: 35% !important;
+  top: 190px !important;
+}
+
+// /deep/.ant-input {
+//   border: none;
+// }
+
+.chosefont ant-input-group {
+  width: 80% !important;
+}
+
+.ant-select-selection {
+  border: none !important;
+}
+
+.hotelsearchbox input {
+  border: none !important;
+}
+
+.ant-dropdown {
+  height: 200px;
+  overflow: auto;
+}
+
+.box {
+  width: 1000px;
+  margin: 0 auto;
+}

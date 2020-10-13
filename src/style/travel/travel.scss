@@ -1,0 +1,197 @@
+.container_box {
+  padding: 20px 0;
+  width: 1000px;
+  margin: 0 17%;
+}
+
+.content_left {
+  width: 260px;
+  z-index: 999999999999;
+}
+
+.menu_item {
+  width: 260px;
+  padding: 0 20px;
+  height: 41px;
+  border: 1px solid #dddddd;
+  color: #000000;
+}
+
+.noneBorder {
+  border-top: none;
+}
+
+i {
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.city {
+  color: orange;
+  margin: 0 10px;
+}
+
+.under:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.desc {
+  background: #ffffff;
+  top: 20px;
+  left: 259px;
+  border: 1px solid #dddddd;
+  visibility: hidden;
+  z-index: 9;
+}
+
+.menu:hover>.desc {
+  visibility: visible;
+}
+
+.menu:hover .menu_item {
+  color: orange;
+  border-right: none;
+}
+
+.recommend {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+  border-bottom: 1px solid #dddddd;
+  color: #000000;
+}
+
+.img_left {
+  width: 260px;
+}
+
+.content_right {
+  width: 700px;
+}
+
+.search1 {
+  width: 700px;
+  height: 40px;
+  border: 3px solid orange;
+}
+
+.input {
+  width: 700px;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin-top: 3px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.SearchOutlined {
+  font-size: 26px;
+  color: orange;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.search_recommend {
+  padding: 10px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.el-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #409eff;
+  border: 1px solid #dcdfe6;
+  color: #ffffff;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  transition: .1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.recommend_strategy {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+
+.xxxx {
+  height: 40px;
+  font-size: 18px;
+  color: orange;
+}
+
+.line {
+  width: 73px;
+  height: 2px;
+  background: orange;
+  position: absolute;
+  top: 49px;
+  left: 0;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #000000;
+}
+.title:hover {
+  color: orange;
+  cursor: pointer;
+}
+.post-desc {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.image-wai {
+  width: 220px;
+  height: 150px;
+  overflow: hidden;
+}
+.images {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+}
+.account_img {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.padd-tbes {
+  border-bottom: 1px solid #dddddd;
+}
+.padd-tbes:hover .hvr-grow {
+  transform: scale(1.2);
+}
+.padd-tbes:hover .title{
+  color: orange;
+}
+.orange {
+  color: orange;
+}
+.fsse {
+  font-size: 12px;
+}
+.left-msg{
+  width: 65%;
+}

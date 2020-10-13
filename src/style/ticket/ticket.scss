@@ -1,0 +1,174 @@
+.container {
+  width: 1000px;
+  margin: 0 17%;
+}
+
+.air_title {
+  margin: 15px 0;
+  font-weight: 400;
+  color: orange;
+  font-size: 20px;
+}
+
+.search_form {
+  border: 1px solid #dddddd;
+  border-top: none;
+  width: 360px;
+  height: 350px;
+}
+
+.search-tab {
+  width: 358px;
+  height: 48px;
+  display: flex;
+}
+
+.search_item {
+  border-top: 2px solid #eeeeee;
+  width: 179px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activea {
+  background: white;
+  border-top-color: orange;
+}
+
+.search_form_content {
+  padding: 15px 50px 15px 15px;
+  position: relative;
+}
+
+.picker {
+  width: 215px;
+  margin-left: 10px;
+
+}
+
+.ant-calendar-picker-input {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.ant-select-selection {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.ant-select-selection__rendered {
+  line-height: 40px;
+}
+
+.search {
+  width: 215px;
+  height: 40px;
+  background: #409eff;
+  color: white;
+  border-radius: 5px;
+  margin-left: 77px;
+}
+
+.top-line {
+  width: 25px;
+  height: 1px;
+  background: #cccccc;
+}
+
+.line {
+  width: 1px;
+  height: 22px;
+  background: #cccccc;
+  margin-left: 25px;
+}
+
+.exchange {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background: #999999;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.jiaohuan {
+  position: absolute;
+  top: 35px;
+  right: 17px;
+}
+
+.sale-bannerv {
+  width: 620px;
+  height: 350px;
+}
+
+.statement[data-v-4b1fa026] {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  height: 58px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.el-row--flex {
+  display: flex;
+}
+
+.el-row {
+  box-sizing: border-box;
+}
+
+.statement>div[data-v-4b1fa026] {
+  text-align: center;
+  line-height: 38px;
+  border-right: 1px solid #ddd;
+}
+
+.el-col-8 {
+  width: 33.33333%;
+}
+
+[class*=el-col-] {
+  float: left;
+  box-sizing: border-box;
+}
+
+.special {
+  font-size: 20px;
+  color: #409eff;
+  margin: 15px 0;
+}
+
+.specialImg {
+  width: 225px;
+  height: 140px;
+}
+
+.layer-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.el-row--flex.is-justify-space-between {
+  justify-content: space-between;
+}
+
+.el-row--flex {
+  display: flex;
+}
+.air-sale {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 50px;
+}
